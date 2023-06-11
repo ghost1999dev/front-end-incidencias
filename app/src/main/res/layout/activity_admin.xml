@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:text="Bienvenido al activity admin">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/registerUser"
+                android:layout_width="wrap_content"
+                style="@style/dashboard_button"
+                android:drawableTop="@drawable/ic_baseline_supervisor_account_24"
+                android:textColor="@color/black"
+                android:text="Registrar usuarios"/>
+            <Button
+                android:id="@+id/registerIncidence"
+                android:layout_width="wrap_content"
+                style="@style/dashboard_button"
+                android:drawableTop="@drawable/ic_baseline_app_registration_24"
+                android:textColor="@color/black"
+                android:text="Registrar incidencias"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/generarPdf"
+                android:layout_width="wrap_content"
+                style="@style/dashboard_button"
+                android:drawableTop="@drawable/ic_baseline_checklist_24"
+
+                android:textColor="@color/black"
+                android:text="Generar PDF incidencias"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

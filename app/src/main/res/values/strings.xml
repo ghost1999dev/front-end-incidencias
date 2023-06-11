@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProyectoIncidencias</string>
+
+    <style name="dashboard_button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/buttonselector</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+</resources>
